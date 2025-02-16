@@ -79,10 +79,6 @@ header {
 	gap: var(--header_button-gap);
 	flex-grow: 1;
 
-	a:global(.button) {
-		background: transparent;
-	}
-
 	display: none;
 
 	@include from($tabletSmall) {
